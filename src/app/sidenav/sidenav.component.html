@@ -1,0 +1,27 @@
+<!--Sidebar Container-->
+<ng-sidebar-container>
+
+    <!--Sidebar-->
+    <ng-sidebar class="sidebar" mode="push" [opened]="opened">
+
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/questions','section','Test Environment']" routerLinkActive="active"><h6>Test Environment</h6></a>
+            <ul class="navbar-nav">
+                <li class="nav-items"><a class="nav-link" [routerLink]="['/questions','section','Test Environment','parameter','Test Environment Availability']" routerLinkActive="active">Test Environment Availability</a></li>
+                <li class="nav-items"><a class="nav-link" [routerLink]="['/questions','section','Test Environment','parameter','Test Environment Provisioning']" routerLinkActive="active">Environment Provisioning</a></li>
+            </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/questions','section','Test Automation']" routerLinkActive="active"><h6>Test Automation</h6></a>
+            <ul class="navbar-nav">
+                <li class="nav-items"><a class="nav-link" [routerLink]="['/questions','section','Test Automation','parameter','Tool Chain Integeration','level',1,'question',1]" routerLinkActive="active">Tool Chain Integration</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="navbar-nav pb-3" style="position: fixed;bottom: 0;">
+        <li class="nav-item-bottom"><a class="nav-link" [routerLink]="['/guidelines']" routerLinkActive="active"><h6>Guidelines</h6></a></li>
+    </div>
+    </ng-sidebar>
+</ng-sidebar-container>
+
+
+

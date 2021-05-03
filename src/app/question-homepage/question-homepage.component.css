@@ -1,0 +1,36 @@
+.card{
+    width: 100%;
+}
+
+
+
+/* .panel-body {
+    resize: none;
+    padding: 20px;
+    height: 130px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+    float: right;
+} */
+
+li:hover {
+    /* color: cornsilk;
+    background-color: black;
+     */
+     background-color: palegreen;
+    
+  }
+
+ /* p{
+    
+        
+        border: 15px solid green;
+        padding: 5px;
+        margin: 2px;
+      
+} 
+ */
+
+
+
+
